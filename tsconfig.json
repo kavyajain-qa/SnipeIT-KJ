@@ -1,0 +1,16 @@
+{
+  // Only used for type checking (`npm run typecheck`); Playwright compiles the TypeScript itself when it runs the tests.
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM"],
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "types": ["node"],
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noEmit": true,
+    "skipLibCheck": true
+  },
+  "include": ["playwright.config.ts", "src", "tests"]
+}
